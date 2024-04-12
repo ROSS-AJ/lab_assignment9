@@ -22,7 +22,7 @@ struct HashType
 // Compute the hash function
 int hash(int x)
 {
-	return x%37;
+	return x%23;
 }
 
 // parses input file to an integer array
